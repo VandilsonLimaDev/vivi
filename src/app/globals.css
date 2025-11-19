@@ -48,7 +48,7 @@ body {
 }
 
 #button__hamburguer {
-  @apply absolute top-0 right-0 text-5xl;
+  @apply top-0 right-0 text-5xl;
 }
 
 /* BANNER */
