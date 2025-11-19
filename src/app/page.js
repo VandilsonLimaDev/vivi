@@ -61,7 +61,7 @@ Queremos inspirar pessoas a valorizar o trabalho manual e mostrar como pequenas 
       <section id="produtos" className="container">
         <div className="container section__container produtos__container">
           <h2 className="section__title">Produtos</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div>
               {/* {Array.from({ length: 15 }).map((_, index) => (
                   <Image 
                       key={index} // O key é crucial e deve ser único. O índice funciona aqui.
