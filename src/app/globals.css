@@ -72,18 +72,7 @@ body {
   @apply py-12 px-8;
 }
 .section__title {
-  @apply text-5xl pb-6 font-black tracking-tight text-[var(--font-title)];
-}
-
-.embla {
-  overflow: hidden;
-}
-.embla__container {
-  display: flex;
-}
-.embla__slide {
-  flex: 0 0 100%;
-  min-width: 0;
+  @apply text-6xl pb-6 tracking-tight text-[var(--font-title)];
 }
 
 
@@ -96,4 +85,13 @@ p {
   @apply bg-white
   pt-30 pb-20 px-10 md:py-20 md:px-20 md:pl-32 
   rounded-tr-[180px] rounded-br-[70px] rounded-bl-[70px] rounded-tl-[70px];
+}
+
+.react-photo-album--image, .yarl__slide_image {
+  border-radius: 25px !important;
+}
+
+.title {
+  @apply tracking-normal;
+  font-family: Pacifico, serif;
 }

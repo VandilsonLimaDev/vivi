@@ -25,7 +25,7 @@ const BannerSite = () => {
               </p>
               <p className="flex flex-col justify-start items-start font-bold">
                 Venha conhecer nosso mundo feito à mão
-                <span className="border-2 pl-8 pr-12 py-1 mt-2 rounded-full border-[var(--font-title)]/20">— você vai se apaixonar por cada fio!</span>
+                <span className="border-2 pl-8 pr-6 md:pr-12 py-1 mt-2 rounded-full border-[var(--font-title)]/20">— você vai se apaixonar por cada fio!</span>
               </p>
             </div>
           </div>

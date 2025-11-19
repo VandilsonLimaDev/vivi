@@ -76,7 +76,7 @@ const Menu = () => {
       <Link className="link" href="#produtos">
         Produtos
       </Link>
-      <div id="button__hamburguer" className="sm:hidden fixed mr-3 mt-3">
+      <div id="button__hamburguer" className="sm:hidden fixed mr-3 mt-3 rounded-full"  style={{ "background-color" : "#e66271" }}>
         <Button onClick={toggleDrawer(true)}>
           <MenuIcon className="text-white" sx={{ fontSize: 40 }} />
         </Button>
