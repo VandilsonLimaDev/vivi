@@ -40,7 +40,7 @@ export default function Home() {
               <p>Trabalhamos com peças feitas totalmente à mão, valorizando o tempo, o cuidado e a dedicação que só o crochê pode oferecer.</p>
               <p>Mais do que uma loja, somos uma comunidade que apoia o empreendedorismo criativo e celebra a beleza do feito à mão.</p>
               <div className="border-b border-[var(--font-title)]/20 mb-8">
-                <h2 className="title text-4xl text-[var(--font-title)] py-5 tracking-widest">As alunas</h2>
+                <h2 className="title text-4xl text-[var(--font-title)] py-5 tracking-widest">As idealizadoras do projeto</h2>
               </div>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-10 text-center">
                 {alunas.map(({id, nome, funcao, foto})=>(
