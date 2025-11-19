@@ -10,21 +10,21 @@ import Image from "next/image";
 
 // Dados de Exemplo com dimensões (Simulação)
 const slides = [
-    { src: '/produtos/produto1.jpeg', title: 'P1', width: 800, height: 600 },
-    { src: '/produtos/produto2.jpeg', title: 'P2', width: 400, height: 600 },
-    { src: '/produtos/produto3.jpeg', title: 'P3', width: 600, height: 400 },
-    { src: '/produtos/produto4.jpeg', title: 'P4', width: 600, height: 400 },
-    { src: '/produtos/produto5.jpeg', title: 'P5', width: 600, height: 400 },
-    { src: '/produtos/produto6.jpeg', title: 'P6', width: 600, height: 400 },
-    { src: '/produtos/produto7.jpeg', title: 'P7', width: 600, height: 400 },
-    { src: '/produtos/produto8.jpeg', title: 'P8', width: 600, height: 400 },
-    { src: '/produtos/produto9.jpeg', title: 'P9', width: 600, height: 400 },
-    { src: '/produtos/produto10.jpeg', title: 'P10', width: 600, height: 400 },
-    { src: '/produtos/produto11.jpeg', title: 'P11', width: 600, height: 400 },
-    { src: '/produtos/produto12.jpeg', title: 'P12', width: 600, height: 400 },
-    { src: '/produtos/produto13.jpeg', title: 'P13', width: 600, height: 400 },
-    { src: '/produtos/produto14.jpeg', title: 'P14', width: 600, height: 400 },
-    { src: '/produtos/produto15.jpeg', title: 'P15', width: 600, height: 400 },
+    { src: '/produtos/produto1.jpg', title: 'P1', width: 800, height: 800 },
+    { src: '/produtos/produto2.jpg', title: 'P2', width: 400, height: 600 },
+    { src: '/produtos/produto3.jpg', title: 'P3', width: 400, height: 600 },
+    { src: '/produtos/produto4.jpg', title: 'P4', width: 400, height: 600 },
+    { src: '/produtos/produto5.jpg', title: 'P5', width: 400, height: 600 },
+    { src: '/produtos/produto6.jpg', title: 'P6', width: 400, height: 600 },
+    { src: '/produtos/produto7.jpg', title: 'P7', width: 800, height: 800 },
+    { src: '/produtos/produto8.jpg', title: 'P8', width: 400, height: 600 },
+    { src: '/produtos/produto9.jpg', title: 'P9', width: 400, height: 600 },
+    { src: '/produtos/produto10.jpg', title: 'P10', width: 400, height: 600 },
+    { src: '/produtos/produto11.jpg', title: 'P11', width: 800, height: 800 },
+    { src: '/produtos/produto12.jpg', title: 'P12', width: 400, height: 600 },
+    { src: '/produtos/produto13.jpg', title: 'P13', width: 400, height: 600 },
+    { src: '/produtos/produto14.jpg', title: 'P14', width: 400, height: 600 },
+    { src: '/produtos/produto15.jpg', title: 'P15', width: 400, height: 600 },
 ];
 
 export default function MinhaGaleriaNext() {
