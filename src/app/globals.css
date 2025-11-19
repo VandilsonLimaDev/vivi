@@ -1,0 +1,95 @@
+@import url("https://fonts.cdnfonts.com/css/transforma-mix");
+@import "tailwindcss";
+
+:root {
+  --background: rgb(255, 243, 243);
+  --foreground: #ff8d9a;
+  --font-title: #e66271;
+}
+
+body {
+  background: var(--background);
+  color: #212121;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+.container {
+  @apply mx-auto max-w-6xl w-full;
+}
+
+/* HERO */
+.hero {
+  @apply min-h-[70vh] w-full flex justify-center py-16 px-10 xl:px-0;
+  background-color: #e66271;
+}
+.hero__container {
+  @apply grid grid-cols-3 md:grid-cols-12  items-center;
+}
+
+/* HEADER */
+.header {
+  @apply col-span-4;
+}
+.header__container {
+  @apply flex flex-col justify-between z-20 md:z-0 relative;
+}
+.header__navlink {
+  @apply flex-col sm:flex-row sm:justify-end sm:pr-12 sm:pb-6 gap-8 text-white text-xl;
+}
+.header__navlink--header {
+  @apply flex sm:hidden;
+}
+.header__navlink--header .link {
+  @apply hidden;
+}
+.header__navlink--banner {
+  @apply hidden sm:flex;
+}
+
+#button__hamburguer {
+  @apply absolute top-0 right-0 text-5xl;
+}
+
+/* BANNER */
+.banner {
+  @apply col-span-8 relative z-10;
+}
+.banner__container {
+  @apply flex justify-between items-center relative z-10 bg-white
+  pt-30 pb-20 px-10 md:py-20 md:px-20 -mt-24
+  md:pl-32 md:-ml-16 md:-mt-0 
+  rounded-tr-[70px] rounded-br-[70px] rounded-bl-[70px] rounded-tl-[180px];
+  background-color: #ffdfe5;
+}
+
+
+.section__container {
+  @apply py-12 px-8;
+}
+.section__title {
+  @apply text-5xl pb-6 font-black tracking-tight text-[var(--font-title)];
+}
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+
+p {
+  @apply pb-4
+}
+
+
+.nossamissao__container {
+  @apply bg-white
+  pt-30 pb-20 px-10 md:py-20 md:px-20 md:pl-32 
+  rounded-tr-[180px] rounded-br-[70px] rounded-bl-[70px] rounded-tl-[70px];
+}
