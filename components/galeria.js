@@ -37,7 +37,7 @@ export default function MinhaGaleriaNext() {
                 // O array de dados
                 photos={slides} 
                 // Altura alvo para cada linha. O componente ajusta a largura.
-                targetRowHeight={280} 
+                targetRowHeight={320} 
                 // Função chamada quando uma miniatura é clicada
                 onClick={({ index: current }) => setIndex(current)}
                 // Opcional: Renderiza as imagens usando o Image do Next.js (Melhor performance!)
