@@ -35,19 +35,19 @@ const Menu = () => {
           {
             id: 2,
             nome: "Quem Somos",
-            link: "quemsomos",
+            link: "#quemsomos",
             icon: <EmojiPeopleIcon />,
           },
           {
             id: 3,
             nome: "Nossa Missão",
-            link: "nossamissao",
+            link: "#nossamissao",
             icon: <AdsClickIcon />,
           },
           {
             id: 4,
-            nome: "Produtos",
-            link: "produtos",
+            nome: "Nossos Produtos",
+            link: "#nossosprodutos",
             icon: <LocalMallIcon />,
           },
         ].map(({ id, nome, link, icon }) => (
