@@ -25,7 +25,7 @@ export default function Home() {
       </section>
       <section id="quemsomos" className="container">
         <div className="container section__container">
-          <h2 className="section__title title">Quem somos</h2>
+          <h2 className="section__title title flex md:hidden pb-4">Quem somos</h2>
           <div className="grid grid-cols-12 gap-8">
             <div className="col-span-12 md:col-span-5">
               <Image
@@ -36,11 +36,12 @@ export default function Home() {
                />
             </div>
             <div className="col-span-12 md:col-span-7">
+              <h2 className="section__title title hidden md:flex pb-4">Quem somos</h2>
               <p className="font-bold">Na Crochet Love, acreditamos que o artesanato é uma forma de expressar amor. Nosso projeto nasceu da paixão por transformar fios em arte e do desejo de levar esse sentimento para outras pessoas.</p>
               <p>Trabalhamos com peças feitas totalmente à mão, valorizando o tempo, o cuidado e a dedicação que só o crochê pode oferecer.</p>
               <p>Mais do que uma loja, somos uma comunidade que apoia o empreendedorismo criativo e celebra a beleza do feito à mão.</p>
               <div className="border-b border-[var(--font-title)]/20 mb-8">
-                <h2 className="title text-4xl text-[var(--font-title)] py-5 tracking-widest">As idealizadoras do projeto</h2>
+                <h2 className="title text-4xl text-[var(--font-title)] py-5 tracking-widest text-center md:text-left">As idealizadoras do projeto</h2>
               </div>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-10 text-center">
                 {alunas.map(({id, nome, funcao, foto})=>(

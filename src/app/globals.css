@@ -93,5 +93,5 @@ p {
 
 .title {
   @apply tracking-normal;
-  font-family: Pacifico, serif;
+  font-family: Pacifico, serif; margin-left:-7px;
 }
