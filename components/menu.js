@@ -47,7 +47,7 @@ const Menu = () => {
           {
             id: 4,
             nome: "Nossos Produtos",
-            link: "#nossosprodutos",
+            link: "#produtos",
             icon: <LocalMallIcon />,
           },
         ].map(({ id, nome, link, icon }) => (

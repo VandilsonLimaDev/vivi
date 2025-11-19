@@ -10,7 +10,7 @@ const HeaderSite = () => {
         <Link href="/">
           <Image
             src="/logo-vertical.png"
-            height={60}
+            height={600}
             width={410}
             alt="Projeto Crochet Love"
           />
