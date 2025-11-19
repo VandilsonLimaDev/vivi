@@ -35,7 +35,7 @@ export default function Home() {
                />
             </div>
             <div className="col-span-12 md:col-span-7">
-              <p>Na Crochet Love, acreditamos que o artesanato é uma forma de expressar amor. Nosso projeto nasceu da paixão por transformar fios em arte e do desejo de levar esse sentimento para outras pessoas.</p>
+              <p className="italic text-[var(--font-title)]">Na Crochet Love, acreditamos que o artesanato é uma forma de expressar amor. Nosso projeto nasceu da paixão por transformar fios em arte e do desejo de levar esse sentimento para outras pessoas.</p>
               <p>Trabalhamos com peças feitas totalmente à mão, valorizando o tempo, o cuidado e a dedicação que só o crochê pode oferecer.</p>
               <p>Mais do que uma loja, somos uma comunidade que apoia o empreendedorismo criativo e celebra a beleza do feito à mão.</p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-10 text-center">

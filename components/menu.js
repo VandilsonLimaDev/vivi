@@ -1,5 +1,5 @@
 "use client";
-import { Link as RouterLink } from "next/link";
+import Link from "next/link";
 import React from "react";
 
 import Box from "@mui/material/Box";
@@ -31,7 +31,7 @@ const Menu = () => {
       {/* <Divider /> */}
       <List>
         {[
-          { id: 1, nome: "Home", link: "home", icon: <HomeFilledIcon /> },
+          { id: 1, nome: "Home", link: "/", icon: <HomeFilledIcon /> },
           {
             id: 2,
             nome: "Quem Somos",
@@ -52,7 +52,7 @@ const Menu = () => {
           },
         ].map(({ id, nome, link, icon }) => (
           <ListItem key={link} disablePadding>
-            <ListItemButton component={RouterLink} to={link}>
+            <ListItemButton component={Link} to={link}>
               <ListItemIcon>{icon}</ListItemIcon>
               <ListItemText primary={nome} />
             </ListItemButton>
@@ -64,18 +64,18 @@ const Menu = () => {
 
   return (
     <>
-      <RouterLink className="link" href="/">
+      <Link className="link" href="/">
         Home
-      </RouterLink>
-      <RouterLink className="link" href="#quemsomos">
+      </Link>
+      <Link className="link" href="#quemsomos">
         Quem Somos
-      </RouterLink>
-      <RouterLink className="link" href="#nossamissao">
+      </Link>
+      <Link className="link" href="#nossamissao">
         Nossa Missão
-      </RouterLink>
-      <RouterLink className="link" href="#produtos">
+      </Link>
+      <Link className="link" href="#produtos">
         Produtos
-      </RouterLink>
+      </Link>
       <div id="button__hamburguer" className="sm:hidden fixed mr-3 mt-3">
         <Button onClick={toggleDrawer(true)}>
           <MenuIcon className="text-white" sx={{ fontSize: 40 }} />

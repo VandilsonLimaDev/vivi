@@ -5,7 +5,7 @@ import Menu from "./menu";
 
 const HeaderSite = () => {
   return (
-    <header className="header">
+    <header id="home" className="header">
       <div className="header__container">
         <Link href="/">
           <Image
