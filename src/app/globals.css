@@ -7,6 +7,10 @@
   --font-title: #e66271;
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--background);
   color: #212121;
